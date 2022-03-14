@@ -121,6 +121,9 @@ html {
     .max-width {
         padding: 0 40px;
     }
+    .navbar .logo a img {
+        width: 50px;
+    }
 }
 
 /* ---------------------------------- */
