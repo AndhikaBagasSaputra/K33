@@ -67,11 +67,6 @@ section .title:before {
     background: rgb(0, 123, 255, 0.3);
 }
 
-.content {
-    max-width: 1700px;
-    padding: 0 80px;
-    margin: auto;
-}
 
 .navbar {
     position: fixed;
@@ -277,7 +272,9 @@ section .title:before {
         padding: 0 60px;
     }
 
-    
+    .max-width {
+        padding: 0 30px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -285,7 +282,9 @@ section .title:before {
         padding: 0 40px;
     }
 
-    
+    .max-width {
+        padding: 0 30px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -293,6 +292,9 @@ section .title:before {
         padding: 0 30px;
     }
 
+    .max-width {
+        padding: 0 30px;
+    }
 }
 
 @media (max-width: 868px) {
