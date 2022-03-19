@@ -14,8 +14,27 @@ navBar.forEach(function (a) {
     })
 });
 
+
 $(document).ready(function () {
-    $(".customer-logos").slick({
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 40) {
+            $('#topBtn').fadeIn();
+        } else {
+            $('#topBtn').fadeOut();
+        }
+    });
+
+    $("#topBtn").click(function () {
+        $('html ,body').animate({
+            scrollTop: 0
+        }, 300);
+    });
+});
+
+
+$(document).ready(function () {
+    $(".partner-logos").slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
