@@ -21,9 +21,6 @@ a:hover {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--primary-color) !important;
-}
 
 ul,
 ol {
@@ -86,11 +83,16 @@ h2 {
     font-family: var(--secondry-font);
     color: var(--secondry-color);
     line-height: 3rem;
+}
 
+h3 {
+    color: var(--white-color);
+    font-family: var(--secondry-font);
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 h4 {
-    color: var(--secondry-color);
     font-family: var(--secondry-font);
     text-transform: capitalize;
     font-size: 18px;
@@ -196,6 +198,10 @@ p {
     transition: all 200ms linear;
 }
 
+.navigation-wrap .nav-item a:hover {
+    color: var(--primary-color) !important;
+}
+
 .navbar-toggler:focus {
     outline: unset;
     border: unset;
@@ -240,6 +246,7 @@ p {
     cursor: pointer;
     display: none;
     box-shadow: 0px 0px 5px 1px rgba(19, 18, 18, 0.75);
+    z-index: 999;
 }
 
 /*===== top-banner Design =====*/
@@ -278,7 +285,6 @@ p {
     padding-left: 2rem;
 }
 
-/*===== about section Design =====*/
 .vm-type {
     padding-top: 3.25rem;
 }
@@ -336,6 +342,7 @@ p {
     padding: 3rem;
     font-size: 3.5rem;
     margin-bottom: 3rem;
+    color: var(--white-color) !important;
 }
 
 /* Slider */
@@ -360,6 +367,93 @@ p {
     padding: 3rem;
     font-size: 3.5rem;
     margin-bottom: 3rem;
+}
+
+/*===== Contact Us section Design =====*/
+.contact-section {
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+
+}
+
+.contact-section h2 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: var(--white-color) !important;
+}
+
+.contact-section h4 {
+    color: var(--white-color) !important;
+}
+
+.contact-section .container .row h2 {
+    color: var(--white-color) !important;
+}
+
+.contact-type {
+    padding-top: 3.25rem;
+}
+
+.contact-type ul li {
+    font-size: 1rem;
+    color: var(--white-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.contact-type ul li a {
+    color: var(--white-color);
+}
+
+.contact-type ul li a:hover {
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.contact-type ul .instagram::before {
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Brands";
+    content: '\f16d';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.contact-type ul .email::before {
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f0e0';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.contact-type ul .telpon::before {
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f879';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+footer {
+    background-color: var(--secondry-color);
 }
 
 /* < !--===============Responsive Design=================--> */
