@@ -226,6 +226,21 @@ p {
     transition: all .15s ease-in-out 0s;
 }
 
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 0px 5px 1px rgba(19, 18, 18, 0.75);
+}
 
 /*===== top-banner Design =====*/
 
@@ -276,6 +291,10 @@ p {
     margin-left: 30px;
 }
 
+.vm-type ul .visi span {
+    font-style: italic;
+}
+
 .vm-type ul .visi::before {
     position: absolute;
     left: -2.1875rem;
@@ -287,6 +306,10 @@ p {
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
+}
+
+.vm-type ul .misi {
+    margin-top: 1rem;
 }
 
 .vm-type ul .misi::before {
@@ -323,6 +346,20 @@ p {
 .partner-section .slick-slide img {
     width: 100%;
     border-radius: 10px;
+}
+
+/*===== Cover Area section Design =====*/
+
+.cover-section {
+    background: var(--white-color);
+    padding: 2.5rem 0;
+}
+
+.cover-section h4 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
 }
 
 /* < !--===============Responsive Design=================--> */
