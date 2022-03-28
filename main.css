@@ -258,6 +258,7 @@ p {
     padding: 16.875rem 0 9.375rem;
 }
 
+
 /*===== counter Design =====*/
 
 .counter-section {
@@ -273,8 +274,11 @@ p {
 /*===== about section Design =====*/
 
 .about-section {
-    background: var(--white-color);
+    width: 100%;
+    background: url('img/BG-2.jpg') no-repeat center;
+    background-size: cover;
 }
+
 
 .about-section .card,
 .about-section .card img {
@@ -358,7 +362,9 @@ p {
 /*===== Cover Area section Design =====*/
 
 .cover-section {
-    background: var(--white-color);
+    width: 100%;
+    background: url('img/BG-3.jpg') no-repeat center;
+    background-size: cover;
     padding: 2.5rem 0;
 }
 
