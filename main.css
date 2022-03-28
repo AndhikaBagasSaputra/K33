@@ -321,7 +321,7 @@ p {
     position: absolute;
     left: -2.1875rem;
     color: var(--primary-color);
-    font-size: 1.25rem;
+    font-size: 1.65rem;
     font-family: "Font Awesome 5 Free";
     content: '\f0eb';
     display: inline-block;
@@ -385,7 +385,7 @@ p {
     padding: 3rem;
     font-size: 3.5rem;
     margin-bottom: 3rem;
-    color: var(--secondry-color);
+    color: var(--primary-color);
 }
 
 /*===== Contact Us section Design =====*/
