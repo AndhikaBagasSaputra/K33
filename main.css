@@ -391,6 +391,7 @@ p {
 .cover-section img {
     height: 100%;
     width: 900px;
+    border-radius: 10px;
 }
 
 /*===== Contact Us section Design =====*/
